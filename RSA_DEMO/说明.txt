@@ -1,3 +1,24 @@
-1、将加密工具类文件 RSACrypt 拖入工程中 
+1、pod中加入如下依赖，执行pod install：
+pod 'GTMBase64', '~> 1.0.0'
+pod 'MIHCrypto', '~> 0.4.1'
 
-2、使用： 调用 postWithOrderId 方法，传入order_id 即可获取解密后的数据 (请参考demo)
+
+2、把静态库EncryptedChannel.framework拖入工程中
+
+
+3、打开 Target build setting --> Framework Search Paths 双击，然后点住左侧工程中的EncryptedChannel.framework，拖入列表中
+
+  打开 Target build setting --> Header Search Paths 双击，然后点住左侧工程中的EncryptedChannel.framework 里面的Headers，拖入列表中
+
+
+
+4、在需要调用的类中加这行代码:  #import <EncryptedChannel.h>
+
+
+
+5、调用：
+[RSACrypt postWithOrderId:@"9900001" callabck:^(NSError *error, int code, id response) {
+//当且仅当code==200时，获得正确数据，此时response是一个NSDictionary类型。
+//当code!=200，通过Error回调错误信息。
+}];
+

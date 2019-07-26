@@ -12,6 +12,7 @@
 		634451DE22E850AD00C1DA40 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 634451D922E850AD00C1DA40 /* NSArray+HYBUnicodeReadable.m */; };
 		634451DF22E850AD00C1DA40 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 634451DB22E850AD00C1DA40 /* NSDictionary+HYBUnicodeReadable.m */; };
 		634451E022E850AD00C1DA40 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 634451DD22E850AD00C1DA40 /* NSSet+HYBUnicodeReadable.m */; };
+		63E9205B22EAE72800F429A1 /* EncryptedHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E9205A22EAE72800F429A1 /* EncryptedHeader.m */; };
 		A29B79CB1F6CB6BE004FC889 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B79CA1F6CB6BE004FC889 /* main.m */; };
 		A29B79CE1F6CB6BE004FC889 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B79CD1F6CB6BE004FC889 /* AppDelegate.m */; };
 		A29B79D11F6CB6BE004FC889 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A29B79D01F6CB6BE004FC889 /* ViewController.m */; };
@@ -32,6 +33,8 @@
 		634451DB22E850AD00C1DA40 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
 		634451DC22E850AD00C1DA40 /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 		634451DD22E850AD00C1DA40 /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		63E9205922EAE72800F429A1 /* EncryptedHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptedHeader.h; sourceTree = "<group>"; };
+		63E9205A22EAE72800F429A1 /* EncryptedHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptedHeader.m; sourceTree = "<group>"; };
 		713E7C37CD21FF5E68FC6156 /* Pods-cryptoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-cryptoDemo/Pods-cryptoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		99C501ADDEA80FE283C70C10 /* Pods-cryptoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cryptoDemo/Pods-cryptoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A27C9E681F70B5E600D321B9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 		A29B79BD1F6CB6BE004FC889 = {
 			isa = PBXGroup;
 			children = (
+				63E9205922EAE72800F429A1 /* EncryptedHeader.h */,
+				63E9205A22EAE72800F429A1 /* EncryptedHeader.m */,
 				A29B79E41F6CB97E004FC889 /* RSACrypt.h */,
 				A29B79E51F6CB97E004FC889 /* RSACrypt.m */,
 				A29B79CF1F6CB6BE004FC889 /* ViewController.h */,
@@ -274,6 +279,7 @@
 				A29B79E61F6CB97E004FC889 /* RSACrypt.m in Sources */,
 				A29B79CE1F6CB6BE004FC889 /* AppDelegate.m in Sources */,
 				634451DE22E850AD00C1DA40 /* NSArray+HYBUnicodeReadable.m in Sources */,
+				63E9205B22EAE72800F429A1 /* EncryptedHeader.m in Sources */,
 				A29B79CB1F6CB6BE004FC889 /* main.m in Sources */,
 				634451DF22E850AD00C1DA40 /* NSDictionary+HYBUnicodeReadable.m in Sources */,
 				634451E022E850AD00C1DA40 /* NSSet+HYBUnicodeReadable.m in Sources */,

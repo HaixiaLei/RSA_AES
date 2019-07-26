@@ -1,0 +1,44 @@
+PODS:
+  - GTMBase64 (1.0.1)
+  - MIHCrypto (0.4.1):
+    - MIHCrypto/AES (= 0.4.1)
+    - MIHCrypto/Core (= 0.4.1)
+    - MIHCrypto/DES (= 0.4.1)
+    - MIHCrypto/Mathematics (= 0.4.1)
+    - MIHCrypto/MD5 (= 0.4.1)
+    - MIHCrypto/RSA (= 0.4.1)
+    - MIHCrypto/SHA (= 0.4.1)
+  - MIHCrypto/AES (0.4.1):
+    - MIHCrypto/Core
+  - MIHCrypto/Core (0.4.1):
+    - OpenSSL-Universal (~> 1.0.1.18)
+  - MIHCrypto/DES (0.4.1):
+    - MIHCrypto/Core
+  - MIHCrypto/Mathematics (0.4.1):
+    - MIHCrypto/Core
+  - MIHCrypto/MD5 (0.4.1):
+    - MIHCrypto/Core
+  - MIHCrypto/RSA (0.4.1):
+    - MIHCrypto/Core
+  - MIHCrypto/SHA (0.4.1):
+    - MIHCrypto/Core
+  - OpenSSL-Universal (1.0.1.20)
+
+DEPENDENCIES:
+  - GTMBase64 (~> 1.0.0)
+  - MIHCrypto (~> 0.4.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GTMBase64
+    - MIHCrypto
+    - OpenSSL-Universal
+
+SPEC CHECKSUMS:
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  MIHCrypto: 9c83cf35a3c218928847df8faf1ba080975a0bf2
+  OpenSSL-Universal: 71f2c4b2ae758e2218090f905e95ca0ac5c01be7
+
+PODFILE CHECKSUM: 645475023dbeda7b9a38bca6ca7cb1809e035ecc
+
+COCOAPODS: 1.5.3

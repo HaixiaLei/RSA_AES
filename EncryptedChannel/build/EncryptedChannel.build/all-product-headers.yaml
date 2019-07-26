@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/david/Desktop/work/projects/RSA_AES/EncryptedChannel/build/Release-iphoneos/EncryptedChannel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "EncryptedChannel-Swift.h",
+          'external-contents': "/Users/david/Desktop/work/projects/RSA_AES/EncryptedChannel/build/Release-iphoneos/EncryptedChannel.framework/Headers/EncryptedChannel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "EncryptedChannel.h",
+          'external-contents': "/Users/david/Desktop/work/projects/RSA_AES/EncryptedChannel/EncryptedChannel/EncryptedChannel.h"
+        },
+        {
+          'type': 'file',
+          'name': "RSACrypt.h",
+          'external-contents': "/Users/david/Desktop/work/projects/RSA_AES/EncryptedChannel/EncryptedChannel/RSACrypt.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/david/Desktop/work/projects/RSA_AES/EncryptedChannel/build/Release-iphoneos/EncryptedChannel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/david/Desktop/work/projects/RSA_AES/EncryptedChannel/build/EncryptedChannel.build/Release-iphoneos/EncryptedChannel.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

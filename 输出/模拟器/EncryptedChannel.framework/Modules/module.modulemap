@@ -1,0 +1,6 @@
+framework module EncryptedChannel {
+  umbrella header "EncryptedChannel.h"
+
+  export *
+  module * { export * }
+}
